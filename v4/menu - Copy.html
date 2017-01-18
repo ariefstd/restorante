@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/global.css">    
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/menu_slide/flexslider.css" type="text/css" media="screen" />
+
+    <script src="js/vendor/jquery-1.9.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/supersized.css" />
+    <link rel="stylesheet" href="js/theme/supersized.shutter.css" />
+    <script src="js/vendor/supersized.3.2.7.min.js"></script>
+    <script src="js/theme/supersized.shutter.min.js"></script>
+
+    <link rel="stylesheet" href="js/fancyapps/jquery.fancybox.css">
+    <script src="js/fancyapps/jquery.fancybox.pack.js"></script>
+    <!-- FOR SLIDER IMG -->
+    <!-- Demo CSS -->
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+    <!-- END SLIDER -->
+
+    <link href="style/mystyle.css" rel="stylesheet" type="text/css" />
+    <link href="style/colorbox.css" rel="stylesheet" type="text/css" />
+    <script src="include/jquery.colorbox.js"></script>
+    <script src="include/colorbox.js"></script>
+
+    <script src="js/global.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('.fancybox').fancybox(
+            {
+                width:'920',
+                height:'90%',
+                type: 'iframe',
+                autoSize: true,
+                autoHeight: true,
+                autoWidth: true,
+                autoResize: true,
+                autoCenter: true,
+                'closeBtn' : false,
+                maxWidth: '100%',
+                maxHeight: '100%',
+
+                helpers:  {
+                    title:  null,
+                    overlay : {
+                        closeClick : false,
+                        showEarly  : false
+                    }
+                },
+
+                'beforeShow': function () {
+
+                    $('.fancybox-wrap div').removeClass('fancybox-skin');
+                }
+            });
+
+            $('.fancybox').bind('close_box', function() {
+                $.fancybox.close();
+            });
+
+            $('.fancybox').bind('update', function() {
+                $.fancybox.update();
+            });
+        });
+</script>
+<style type="text/css">
+	div.main div.landing{
+		margin:20px 40px 0;
+	}
+	div.main div.container{
+		margin-left:0px;
+	}
+	div.main{
+		margin-top:-100px;
+	}
+	
+</style>
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+            <header class="main">
+                <div class="wrap">
+                    <div class="logo">
+                        <a href="index.html"></a>
+                    </div>
+                    <div class="fb"><a href="https://www.facebook.com/nhkrestaurantjb" target="_new">Follow us at</a></div>
+                    <div class="menu-button"></div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="products.html">Product &amp; Services</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="festive.html">Festive Celebration</a></li>
+                            <li><a href="promotion.html">Promotion</a></li>
+                            <li><a href="membership.html">Membership</a></li>
+                            <li><a href="career.html" class="current">Career</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                        <div class="close-menu"></div>
+                    </nav>
+                </div>
+            </header>
+            <div class="mobile-bg">
+                <img src="img/mobile/background/1.png">
+            </div>
+            <div id="wrapper">
+              <div class="main">
+                <div class="background" id="slideshow">
+                    <img src="img/background/t1.jpg">
+                    <img src="img/background/t2.jpg">
+                    <img src="img/background/t3.jpg">
+                    <img src="img/background/t4.jpg">
+                    <img src="img/background/t5.jpg">
+                    <img src="img/background/t6.jpg">
+                    <img src="img/background/t7.jpg">
+                    <img src="img/background/t8.jpg">
+                </div>
+                <div class="container career" style="floaf:left;width:1000px;height:400px;">
+                    <h1>Order Online</h1>
+					
+                    <div id="main" role="main">
+                        <section class="slider">
+                            <div class="flexslider carousel"></div>
+                    	</section>						
+					</div>
+                	
+            	</div>
+
+                <div class="landing">
+                <!--
+           	  		<div class="col">
+                    	<h1>Exclusive Monthly Promotion</h1>
+                        <div class="content promo">
+                        	<p>We provide only the best quality products and services that's categorised for your easy reference.</p>
+                            <a href="promotion.html">More info</a>
+                        </div>
+                    </div>
+                    
+              		<div class="col">
+                    	<h1>Our Product & Services</h1>
+                        <div class="content product">
+                        	<p>We provide only the best quality products and services that's categorised for your easy reference.</p>
+                            <a href="products.html">More info</a>
+                        </div>
+                    </div>
+                    -->
+                    <!--
+                    <div class="slide-list">
+                    <ul>
+                    	<li><a href="" rel="1"><img src="img/background/icon_1.jpg"></a></li>
+                        <li><a href="" rel="2"><img src="img/background/icon_2.jpg"></a></li>
+                        <li><a href="" rel="3"><img src="img/background/icon_3.jpg"></a></li>
+                        <li><a href="" rel="4"><img src="img/background/icon_4.jpg"></a></li>
+                        <li><a href="" rel="5"><img src="img/background/icon_5.jpg"></a></li>
+                        <li><a href="" rel="6"><img src="img/background/icon_6.jpg"></a></li>
+                        <li><a href="" rel="7"><img src="img/background/icon_7.jpg"></a></li>
+                        <li><a href="" rel="8"><img src="img/background/icon_8.jpg"></a></li>
+                    </ul>
+                    </div>
+                    -->
+            	</div>            	
+            	
+        	</div>
+        <footer class="main">
+            <div class="badge"><a href="reservation.html" title="Enquiry & Reservation" class='example5'></a></div>
+            <nav>
+                <a href="index.html">Home</a>   |
+                <a href="aboutus.html">About Us</a> |
+                <a href="products.html">Product & Services</a>  |
+                <a href="menu.html">Menu</a> |
+                <a href="festive.html">Festive Celebration</a>  |
+                <a href="promotion.html">Promotion</a>  |
+                <a href="membership.html">Membership</a>    |
+                <a href="career.html">Career</a>    |
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+            <p>Copyright &copy; 2013 New Hong Kong Restaurant. All rights reserved.</p>
+        </footer>
+    </div>
+    <script defer src="js/menu_slide/jquery.flexslider.js"></script>
+    <!-- Syntax Highlighter -->
+
+    <script src="js/menu.js"></script>
+    <!-- FlexSlider -->
+
+    <script type="text/javascript">
+        $(function(){
+          SyntaxHighlighter.all();
+      });
+        $(window).load(function(){
+          $('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: false,
+            itemWidth: 210,
+            itemMargin: 5,
+            minItems: 2,
+            maxItems: 4,
+            start: function(slider){
+              $('body').removeClass('loading');
+          }
+      });
+      });
+    </script>
+</body>
+</html>

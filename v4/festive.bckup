@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        
+        <link rel="stylesheet" href="css/vendor/carousel.css">
+        <link rel="stylesheet" href="css/vendor/carousel-style.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/jquery-1.9.0.min.js"></script>
+        <!--<script src="js/vendor/jquery-1.5.1.min.js"></script>-->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+        <link rel="stylesheet" href="css/supersized.css" />
+		<link rel="stylesheet" href="js/theme/supersized.shutter.css" />
+        <script src="js/vendor/supersized.3.2.7.min.js"></script>
+		<script src="js/theme/supersized.shutter.min.js"></script>
+        
+        <link rel="stylesheet" href="js/fancyapps/jquery.fancybox.css">
+        <script src="js/fancyapps/jquery.fancybox.pack.js"></script>
+
+        <!--<script src="js/vendor/jquery.jcarousel.min.js"></script>-->
+        <!--<script src="js/vendor/jquery.jcarousel.js"></script>-->
+        <script src="js/vendor/carousel.js"></script>
+        
+        <link href="style/mystyle.css" rel="stylesheet" type="text/css" />
+		<link href="style/colorbox.css" rel="stylesheet" type="text/css" />
+        <script src="include/jquery.colorbox.js"></script>
+		<script src="include/colorbox.js"></script>
+        
+        <script src="js/global.js"></script>
+        <script src="js/festive.js"></script>
+        
+        <script>$('.m-carousel').carousel()</script>
+		
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="main">
+        <div class="wrap">
+            	<div class="logo">
+              		<a href="index.html"></a>
+              	</div>
+                <div class="fb"><a href="">Follow us at</a></div>
+                <div class="menu-button"></div>
+                <nav>
+                	<ul>
+                    	<li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="products.html">Product &amp; Services</a></li>
+                        <li><a href="festive.html" class="current">Festive Celebration</a></li>
+                        <li><a href="promotion.html">Promotion</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                    <div class="close-menu"></div>
+                </nav>
+        </div>
+        </header>
+
+        <div class="mobile-bg">
+        <img src="img/mobile/background/1.png">
+        </div>
+        
+		<div id="wrapper">
+      
+          <div class="main">
+          
+            	<div class="background" id="slideshow">
+              	<img src="img/background/t1.jpg">
+                <img src="img/background/t2.jpg">
+                <img src="img/background/t3.jpg">
+                <img src="img/background/t4.jpg">
+                <img src="img/background/t5.jpg">
+                <img src="img/background/t6.jpg">
+                <img src="img/background/t7.jpg">
+                <img src="img/background/t8.jpg">
+                </div>
+                
+                  
+                <div class="container festive">
+                <div class="wrap">
+                    <h1>Festive Celebration</h1>
+                  <h2>New Hong Kong Restaurant has come a long way over the years and we now offer our clients quality products and services that are unsurpassed. Whether you are planning a corporate function or just a family get together, you can find it all here.</h2>
+            	</div>
+                
+                
+                
+                <div class="m-carousel m-fluid m-carousel-photos">
+                <div class="display m-carousel-inner">
+                 	<ul class="full">
+                    <li rel="1" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_1.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Chinese New Year</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="2" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_2.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Qing Ming Festival</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="3" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_3.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Secretary's Days</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="4" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_4.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Mother's Days</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="5" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_5.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Father's Days</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="6" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_6.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Dumpling Festival</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="7" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_7.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Zhong Yuan Jie</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="8" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_8.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Mid-Autumn Festival</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    <li rel="9" class="m-item">
+                    	<div class="image"><img src="img/festive/festive_9.jpg"></div>
+                        <div class="content">
+                        	<!--<h2>Season's Greetings</h2>
+                            <p>The Qing Ming Festival is an opportunity for celebrants to remember and honour their ancestors at grave sites.  At New Hong Kong Restaurant, our chefs have whipped up delectable delights both for the living and the dearly departed.</p>-->
+                        </div>
+                    </li>
+                    </ul>    
+                </div>
+                
+				<div class="wrap m-carousel-controls m-carousel-bulleted">
+                	<ul class="thumb">
+                    <li><a href="" data-slide="1" rel="1"><img src="img/festive/thumb_festive_1.png"></a><p>Chinese<br/>New Year</p></li>
+                    <li><a href="" data-slide="2" rel="2"><img src="img/festive/thumb_festive_2.png"></a><p>Qing Ming Festival</p></li>
+                    <li><a href="" data-slide="3" rel="3"><img src="img/festive/thumb_festive_3.png"></a><p>Secretary’s Days</p></li>
+                    <li><a href="" data-slide="4" rel="4"><img src="img/festive/thumb_festive_4.png"></a><p>Mother’s Days</p></li>
+                    <li><a href="" data-slide="5" rel="5"><img src="img/festive/thumb_festive_5.png"></a><p>Father’s Days</p></li>
+                    <li><a href="" data-slide="6" rel="6"><img src="img/festive/thumb_festive_6.png"></a><p>Dumpling Festival</p></li>
+                    <li><a href="" data-slide="7" rel="7"><img src="img/festive/thumb_festive_7.png"></a><p>Zhong<br/>Yuan Jie</p></li>
+                    <li><a href="" data-slide="8" rel="8"><img src="img/festive/thumb_festive_8.png"></a><p>Mid-Autumn Festival</p></li>
+                    <li><a href="" data-slide="9" rel="9"><img src="img/festive/thumb_festive_9.png"></a><p>Season’s Greetings</p></li>
+                    <li><a href="" data-slide="1" rel="10"><img src="img/festive/thumb_festive_7.png"></a><p>Zhong<br/>Yuan Jie</p></li>
+                    <li><a href="" data-slide="2" rel="11"><img src="img/festive/thumb_festive_8.png"></a><p>Mid-Autumn Festival</p></li>
+                    <li><a href="" data-slide="3" rel="12"><img src="img/festive/thumb_festive_9.png"></a><p>Season’s Greetings</p></li>
+                    </ul>
+                </div>   
+                </div>
+                             
+            </div>
+                
+                
+          </div>
+            
+            
+        	<footer class="main">
+            	<div class="badge"><a href="reservation.html" title="Enquiry & Reservation" class='example5'></a></div>
+            	<nav>
+                	<a href="index.html">Home</a>	|	
+                    <a href="aboutus.html">About Us</a>	|	
+                    <a href="products.html">Product & Services</a>	|	
+                    <a href="festive.html">Festive Celebration</a>	|	
+                    <a href="promotion.html">Promotion</a>	|	
+                    <a href="membership.html">Membership</a>	|	
+                    <a href="career.html">Career</a>	|	
+                    <a href="contactus.html">Contact Us</a>
+                </nav>
+                <p>Copyright &copy; 2012 New Hong Kong Restaurant. All rights reserved.</p>
+            </footer>
+        
+        </div>
+        
+     
+    </body>
+</html>

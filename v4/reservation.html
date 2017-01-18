@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link href="style/mystyle.css" rel="stylesheet" type="text/css" />
+<link href="style/form_style.css" rel="stylesheet" type="text/css" />
+<script src="js/-reservation_form.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/base/jquery-ui.css"
+        type="text/css" media="all" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"
+        type="text/javascript"></script>
+
+<script type="text/javascript">
+
+   $(document).ready(function ()
+   {
+      $("#btnShowSimple").click(function (e)
+      {
+         ShowDialog(false);
+         e.preventDefault();
+      });
+
+      $("#btnShowModal").click(function (e)
+      {
+         ShowDialog(true);
+         e.preventDefault();
+      });
+
+      $("#btnClose").click(function (e)
+      {
+         HideDialog();
+         e.preventDefault();
+      });
+
+      $("#btnSubmit").click(function (e)
+      {
+         var brand = $("#brands input:radio:checked").val();
+         $("#output").html("<b>Your favorite mobile brand: </b>" + brand);
+         HideDialog();
+         e.preventDefault();
+      });
+
+   });
+
+   function ShowDialog(modal)
+   {
+      $("#overlay").show();
+      $("#dialog").fadeIn(300);
+
+      if (modal)
+      {
+         $("#overlay").unbind("click");
+      }
+      else
+      {
+         $("#overlay").click(function (e)
+         {
+            HideDialog();
+         });
+      }
+   }
+
+   function HideDialog()
+   {
+      $("#overlay").hide();
+      $("#dialog").fadeOut(300);
+   }
+       
+</script>
+<style type="text/css">
+
+.web_dialog_overlay
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background: #000000;
+   opacity: .15;
+   filter: alpha(opacity=15);
+   -moz-opacity: .15;
+   z-index: 101;
+   display: none;
+}
+.web_dialog
+{
+   display: none;
+   position: fixed;
+   width: 380px;
+   height: 200px;
+   top: 50%;
+   left: 50%;
+   margin-left: -190px;
+   margin-top: -100px;
+   background-color: #ffffff;
+   border: 2px solid #336699;
+   padding: 0px;
+   z-index: 102;
+   font-family: Verdana;
+   font-size: 10pt;
+}
+.web_dialog_title
+{
+   border-bottom: solid 2px #336699;
+   background-color: #336699;
+   padding: 4px;
+   color: White;
+   font-weight:bold;
+}
+.web_dialog_title a
+{
+   color: White;
+   text-decoration: none;
+}
+.align_right
+{
+   text-align: right;
+}
+
+</style>
+</head>
+
+<body>
+<input type="button" id="btnShowSimple" value="Simple Dialog" />
+<input type="button" id="btnShowModal" value="Modal Dialog" />
+   
+<br /><br />      
+   
+<div id="output"></div>
+   
+<div id="overlay" class="web_dialog_overlay"></div>
+   
+<div id="dialog" class="web_dialog">
+   <table style="width: 100%; border: 0px;" cellpadding="3" cellspacing="0">
+      <tr>
+         <td class="web_dialog_title">Online Survey</td>
+         <td class="web_dialog_title align_right">
+            <a href="#" id="btnClose">Close</a>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+      </tr>
+      <tr>
+         <td colspan="2" style="padding-left: 15px;">
+            <b>Choose your favorite mobile brand? </b>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+      </tr>
+      <tr>
+         <td colspan="2" style="padding-left: 15px;">
+            <div id="brands">
+               <input id="brand1" name="brand" type="radio" checked="checked" value="Nokia" /> Nokia
+               <input id="brand2" name="brand" type="radio" value="Sony" /> Sony
+               <input id="brand3" name="brand" type="radio" value="Motorola" /> Motorola
+            </div>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+      </tr>
+      <tr>
+         <td colspan="2" style="text-align: center;">
+            <input id="btnSubmit" type="button" value="Submit" />
+         </td>
+      </tr>
+   </table>
+</div>
+<form action="http://localhost/nhkfront/index.html" id="reservationForm" method="post">
+<table width="480" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><table width="450" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="5" class="lineH"></td>
+      </tr>
+      <tr>
+        <td><table width="450" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="19" colspan="5" align="left" class="signika_14a">
+            <div class="note3" id="reservationThanks">THANKS! Your information has been successfully sent.<br />We will be in touch with you soon.</div>
+            <div class="note3" id="reservationFail">SORRY! Your request has been not be sent.<br />Please try again later.</div>
+            </td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="signika_14a">Name</td>
+            <td width="20" height="19"></td>
+            <td colspan="3"><span class="signika_14a">Email: </span></td>
+          </tr>
+          <tr>
+            <td width="215" height="19" align="left" class="arial12_brown"><input name="name" type="text" class="arialgray_12a" id="name" style="width:210px;" maxlength="255"/></td>
+            <td height="19"><label for="textfield16"></label></td>
+            <td height="19" colspan="3"><span class="arial12_brown">
+              <input name="email" type="text" class="arialgray_12a" id="email" style="width:210px;"  maxlength="255"/>
+            </span></td>
+          </tr>
+          <tr>
+            <td height="19" align="left"><div class="error" id="nameError">* Please enter a valid name.</div></td>
+            <td width="20" height="19"></td>
+            <td colspan="3"><div class="error" id="emailError">* Please enter a valid email.</div></td>
+          </tr>
+          
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown"></td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="signika_14a">Tel H/O.</td>
+            <td height="19"></td>
+            <td colspan="3"><span class="signika_14a">Mobile No.</span></td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="arial12_brown"><input name="phone" type="text" class="arialgray_12a" id="phone" style="width:210px;" maxlength="12"/></td>
+            <td height="19"></td>
+            <td height="19" colspan="3"><span class="arial12_brown">
+              <input name="phone2" type="text" class="arialgray_12a" id="phone2" style="width:210px;"  maxlength="12"/>
+            </span></td>
+          </tr>
+          <tr>
+          	<td height="19" align="left" valign="top"><div class="error" id="phoneError">* Please enter a valid contact.</div></td>
+            <td height="19"></td>
+            <td height="19" colspan="3"><div class="error" id="phoneError2">* Please enter a valid contact.</div></td>
+          </tr>
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown"></td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="arial12_brown">
+            	<table cellpadding="0" cellspacing="0">
+                <tr>
+                	<td height="19" class="signika_14a">No. of People</td>
+                    <td height="19" class="arial12_brown"></td>
+                    <td height="19" class="signika_14a">Budget/Person</td>
+                </tr>
+                <tr>
+                	<td width="100" height="19"><input name="people_no" type="text" class="arialgray_12a" id="people_no" style="width:95px;" maxlength="5"/></td>
+            <td width="15"></td>
+            <td width="100"><input name="budget_person" type="text" class="arialgray_12a" id="budget_person" style="width:95px;"  maxlength="5"/></td>
+                </tr>
+                </table>
+            </td>
+            <td height="19"></td>
+            <td height="19"colspan="3"></td>
+          </tr>
+          
+          <tr>
+          	<td height="19" align="left" valign="top"><div class="error" id="peoplebudgetError">* Please enter no. of people and budget.</div></td>
+            <td height="19"></td>
+            <td height="19" colspan="3"></td>
+          </tr>
+          
+          
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown"></td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="signika_14a">Type of Event</td>
+            <td height="19"></td>
+            <td colspan="3"><span class="signika_14a">Type of Catering</span></td>
+          </tr>
+          
+          <tr>
+            <td height="19" align="left" class="arial12_brown"><label for="select"></label>
+              <select name="event_type" class="arialgray_12a" id="event_type" style="width:210px;">
+                <option selected="selected" value="-">Please Choose</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Corporate">Corporate</option>
+                <option value="Fullmoon">Fullmoon</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Others">Others</option>
+              </select></td>
+            <td height="19"><label for="textfield17"></label></td>
+            <td height="19" colspan="3"><span class="arial12_brown">
+              <select name="catering_type" class="arialgray_12a" id="catering_type" style="width:210px;">
+                <option value="-" selected="selected">Please Choose</option>
+                <option value="Big Value Package">Big Value Package</option>
+                <option value="Fiesta Lightweight Meal">Fiesta Lightweight Meal</option>
+                <option value="Excellence Lightweight Meal">Excellence Lightweight Meal </option>
+                <option value="Harvest Sumptuous Feast">Harvest Sumptuous Feast</option>
+                <option value="Indulgence Sumptuous Feast">Indulgence Sumptuous Feast</option>
+                <option value="Others">Others</option>
+              </select>
+            </span></td>
+          </tr>
+             
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown"></td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="signika_14a">Date of Event</td>
+            <td height="19"></td>
+            <td colspan="3"><span class="signika_14a">Time of Event</span></td>
+          </tr>
+          <tr>
+            <td height="19" align="left" class="arial12_brown"><label for="select"></label>
+              <select name="month" id="month" class="arialgray_12a">
+                <option value="0" selected="selected">MM</option>
+                <option value="Jan">Jan </option>
+                <option value="Feb">Feb </option>
+                <option value="Mar">Mar </option>
+                <option value="April">April </option>
+                <option value="May">May </option>
+                <option value="June">June </option>
+                <option value="July">July </option>
+                <option value="Aug">Aug </option>
+                <option value="Sep">Sep </option>
+                <option value="Oct">Oct </option>
+                <option value="Nov">Nov </option>
+                <option value="Dec">Dec </option>
+              </select>
+              <select name="day" id="day" class="arialgray_12a">
+                <option value="0" selected="selected">DD</option>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+                <option value="6">6 </option>
+                <option value="7">7 </option>
+                <option value="8">8 </option>
+                <option value="9">9 </option>
+                <option value="10">10 </option>
+                <option value="11">11 </option>
+                <option value="12">12 </option>
+                <option value="13">13 </option>
+                <option value="14">14 </option>
+                <option value="15">15 </option>
+                <option value="16">16 </option>
+                <option value="17">17 </option>
+                <option value="18">18 </option>
+                <option value="19">19 </option>
+                <option value="20">20 </option>
+                <option value="21">21 </option>
+                <option value="22">22 </option>
+                <option value="23">23 </option>
+                <option value="24">24 </option>
+                <option value="25">25 </option>
+                <option value="26">26 </option>
+                <option value="27">27 </option>
+                <option value="28">28 </option>
+                <option value="29">29 </option>
+                <option value="30">30 </option>
+                <option value="31">31 </option>
+              </select>
+              <select name="year" id="year" class="arialgray_12a">
+                <option value="0" selected="selected">YYYY</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+              </select></td>
+            <td height="19"><label for="textfield18"></label></td>
+            <td height="19" colspan="3"><span class="arial12_brown">
+              <select name="hour" id="hour" class="arialgray_12a">
+                <option value="-1">HH</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              </span><span class="arial12_brown">
+                <select name="minute" id="minute" class="arialgray_12a">
+                  <option value="-1">MM</option>
+                  <option value="0">00</option>
+                  <option value="10">10</option>
+                  <option value="20">20</option>
+                  <option value="30">30</option>
+                  <option value="40">40</option>
+                  <option value="50">50</option>
+                  <option value="60">60</option>
+                </select>
+                </span><span class="arial12_brown">
+                  <select name="ampm" id="ampm" class="arialgray_12a">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </span></td>
+          </tr>
+          
+          <tr>
+          <td><div class="error" id="dateError">* Please fill in the date of event.</div></td>
+          <td></td>
+          <td colspan="3"><div class="error" id="timeError">* Please fill in the time of event.</div></td>
+          </tr>
+          
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown"></td>
+          </tr>
+          <tr>
+            <td height="19" colspan="5" align="left" class="signika_14a">Venue</td>
+          </tr>
+  
+          <tr>
+            <td height="19" colspan="5" align="left" class="arial12_brown"><input name="address" type="text" class="arialgray_12a" id="address" style="width:440px;" maxlength="255"/></td>
+          </tr>
+          
+          <tr>
+          <td colspan="5"><div class="error" id="addressError">* Please enter an address.</div></td>
+          </tr>
+          
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown"></td>
+          </tr>
+          <tr>
+            <td height="19" colspan="5" align="left" valign="top" class="signika_14a">Message</td>
+          </tr>
+          <tr>
+            <td height="19" colspan="5" align="left" valign="top" class="arial12_brown"><textarea name="message" rows="4" class="arialgray_12a" id="message" style="width:445px; height:60px;"  maxlength="255"></textarea></td>
+          </tr>
+          
+          <tr>
+          <td colspan="5"><div class="error" id="messageError">* Please enter a message.</div></td>
+          </tr>
+          
+          
+          <tr>
+            <td height="10" colspan="5" class="arial12_brown" style="background-image:url(images/line_dot10.gif)"></td>
+          </tr>
+          <tr>
+            <td height="19" colspan="5" align="right" class="arial12_brown">
+            <input name="button" type="submit" class="clean-gray" id="reservation_btn" value="Submit" />
+			</td>
+          </tr>
+          <tr>
+            <td height="10" colspan="5"></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</form>
+<!--<p class="signika_14a">
+    THANKS! Your information has been successfully sent.<br />
+    We will be in touch with you soon.
+    </p>-->
+</body>
+</html>

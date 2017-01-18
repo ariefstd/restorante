@@ -1,0 +1,1339 @@
+iframe, object, embed{max-width: 100%;}
+
+@media all and (max-width : 479px)  {
+	
+	html
+	{
+		background-color: #2a2420;	
+		background-image:none;
+	}
+	
+	body
+	{
+		font-size:8pt;
+	}
+	
+	header.main
+	{
+		width: 100%;
+		height: 100px;
+		background-image: url(../img/bg.png);
+		background-position:0 -25px;
+	}
+	
+	header.main div.wrap
+	{
+		width: 100%;
+		margin:0;
+	}
+	
+	header.main div.logo
+	{
+		width:80px;
+		height:89px;
+		background-image:none;
+		left:10px;	
+	}
+	
+	header.main div.logo a
+	{
+		background-image: url(../img/mobile/logo-s.png);	
+	}
+	
+	header.main div.fb
+	{
+		display:block;
+		width: 50px;
+		height: 50px;
+		
+		position:absolute;
+		top:10px;
+		right:60px;	
+		cursor:pointer;
+		outline:none;
+		font-size:0;
+	}
+	
+	header.main div.fb a
+	{
+		display:block;
+		width: 50px;
+		height: 50px;
+		background-image: url(../img/mobile/fb-button.png);
+		background-repeat: no-repeat;
+		background-position: center center;	
+		padding:0;
+	}
+	
+	header.main div.menu-button
+	{
+		display:block;
+		width: 50px;
+		height: 50px;
+		background-image: url(../img/mobile/menu-button-s.png);
+		background-repeat: no-repeat;
+		background-position: center center;	
+		position:absolute;
+		top:10px;
+		right:10px;	
+		cursor:pointer;
+		outline:none;
+		font-size:0;
+	}
+	
+	div#wrapper
+	{
+		width: 100%;
+	}
+	
+	header.main nav
+	{
+		display:none;
+		width:100%;
+		font-size:1.5em;
+		color:#e9c787;
+		top:0;
+		right:0;
+		z-index:999;
+	}
+	
+	header.main nav ul
+	{
+		width:80%;
+		margin:0;
+		padding:0;
+		float:right;
+		background-color:#212121;
+	}
+	
+	header.main nav ul li
+	{
+		width:100%;
+		margin:0;
+		padding:0;
+		clear:left;
+		float:left;
+	}
+	
+	header.main nav li a
+	{
+		color:#e9c787; 
+		text-decoration:none;
+		padding:10px 20px;
+		border-bottom:solid 1px #383838;
+	}
+	
+	header.main nav li a:hover,
+	header.main nav li a.current
+	{
+		background:none;
+	}
+	header.main nav li:last-child a
+	{
+		border:none;	
+	}
+	
+	header.main nav div.close-menu
+	{
+		float:right;
+		background-color:#85807c;
+		width:50px;
+		height:50px;
+		outline:none;
+		
+		background-image: url(../img/mobile/close-bg.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		font-size:0;
+		cursor:pointer;
+	}
+	
+	div.main
+	{
+		min-height:300px;
+		margin:0;
+	}
+	
+	div.main div.background
+	{
+		display:none;	
+	}
+	
+	#supersized
+	{
+		display:none !important;	
+	}
+	
+	div.mobile-bg
+	{
+		display:block;
+		width: 100%;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	div.mobile-bg img
+	{
+		margin-top:68px;
+		width: 100%;
+	}
+	
+	div.main div.landing
+	{
+		width: 95%;
+		height:auto;	
+		margin:160px auto 35px;
+		padding:0;
+		float:none;
+	}
+	
+	div.main div.landing div.slide-list
+	{
+		display:none;	
+	}
+	
+	div.main div.landing div.col
+	{
+		width:100%;
+		margin:0 0 15px 0;
+		float:left;	
+	}
+	
+	div.main div.landing div.col h1
+	{
+		font-size:13pt;	
+	}
+	
+	div.main div.landing div.col div.content
+	{
+		font-size:8pt;
+	}
+	
+	div.main div.container
+	{
+		margin: 0;
+		background:none;
+		background-image: url(../img/mobile/content-bg.png);
+		background-repeat: repeat;
+		font-size:inherit;
+	}
+	
+	div.main div.container p
+	{
+		margin-top:0;	
+	}
+	
+	div.main div.container h1
+	{
+		font-size:14pt;	
+	}
+	
+	/* About us  ================================== */
+	
+	div.main div.aboutus
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+		padding-top:185px;
+	}
+	
+	div.main div.aboutus h1
+	{
+		margin-left:0;
+		float:none;
+		width:auto;
+	}
+	
+	/*
+	div.main div.aboutus img.intro
+	{
+		position:absolute;
+		max-width:300px;
+		width:auto;
+		height:auto;
+		float:none;
+		top:-285px;
+		left:-0;
+	}
+	*/
+	
+	div.main div.aboutus p.spacer
+	{	
+		padding:0;
+		position:relative;
+	}
+	
+	div.main div.aboutus div.intro
+	{
+		width:300px;
+		top:-50px;
+		left:-0px;	
+	}
+	
+	div.main div.aboutus div.intro img
+	{
+		max-width:300px;
+		*width:300px;	
+	}
+	
+	/* Career  ================================== */
+
+	div.main div.career
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.career img.intro
+	{
+		display:none;
+	}
+	
+	div.main div.career img.intro-reverse
+	{
+		display:block;
+		position:absolute;
+		width:150px;
+		height:auto;
+		bottom:0px;
+		right:10px;
+		float:right;
+	}
+	
+	div.main div.career ul
+	{
+		margin-bottom:10px;
+	}
+	
+	div.main div.career p.spacer
+	{
+		padding:0;
+	}
+	
+	div.main div.career p.mspacer
+	{
+		padding:0 100px 0 0;
+	}
+	
+	div.main div.career p.bottom-gap
+	{
+		height:50px;
+	}
+	
+	/* Membership  ================================== */
+
+	div.main div.membership
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.membership img.intro
+	{
+		width:90px;
+		top:-10px;
+		right:5px;
+	}
+	
+	div.main div.membership div.col
+	{
+		width:100%;
+	}
+		
+	div.main div.membership ul
+	{
+		margin:0 0 15px 0;
+	}
+	
+	div.main div.membership .left
+	{
+		margin:0;
+		padding:0 0 0 0;
+		border:none;
+		border-bottom-width: 1px;
+		border-bottom-style: dotted;
+		border-bottom-color: #806d4a;
+	}
+	
+	div.main div.membership .right
+	{
+		margin:10px 0 0 0;	
+	}
+	
+	.membership-link
+	{
+		display:block;	
+	}
+	
+	/* Festive ================================== */
+
+	div.main div.festive
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.festive div.wrap
+	{
+		width:100%;	
+		margin:0;
+		padding:0;
+	}
+	
+	div.main div.festive h2
+	{
+		font-size:10pt;	
+	}
+	
+	div.main div.festive div.display
+	{
+		width:100%;
+	}
+	
+	#thumb-carousel
+	{
+		width:100%;
+		margin:10px 0;
+	}
+	
+	#thumb-carousel div.m-item
+	{
+		width:15%;
+		margin:2px;
+	}
+	
+	#thumb-carousel div.m-item img
+	{
+		width:100%;
+	}
+	
+	#thumb-carousel div.m-item p
+	{
+		display:none;
+	}
+	
+	#thumb-carousel .m-carousel-controls
+	{
+		display:block;
+	}
+	
+	#thumb-carousel .m-carousel-controls a{}
+	
+	
+	/* Promotion ================================== */
+
+	div.main div.promotion
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.promotion h2
+	{
+		font-size:10pt;	
+	}
+	
+	div.main div.promotion div.promo
+	{
+		width:100%;
+		float:left;	
+		margin-top:20px;
+	}
+	
+	div.main div.promotion div.tab,
+	div.main div.promotion div.select-list,
+	div.main div.promotion div.form-link,
+	div.main div.promotion div.main-display
+	{
+		display:none;
+	}
+	
+	div.main div.promotion div.main-display
+	{
+		display:none !important;
+	}
+	
+	div.main div.promotion div.mobile-promo
+	{
+		width:100%;
+		margin:0;	
+		display:block;
+	}
+	
+	#promotion-carousel .promo-title
+	{
+		position:absolute;
+		top:5px;
+		left:10px;
+		color:#E9C787;
+	}
+	
+	#promotion-carousel .m-carousel-controls
+	{
+		text-align:right;
+		font-size:0;
+		margin-bottom:10px;
+	}
+	
+	#promotion-carousel .m-carousel-bulleted a
+	{
+		padding:3px;
+		margin:0 2px;
+	}
+	
+	#promotion-carousel .m-carousel-bulleted a.m-active
+	{
+		background-color:#E9C787;
+	}
+	
+
+	/* Product & Services  ========================= */
+
+	div.main div.products
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	div.main div.products h2
+	{
+		font-size:10pt;	
+	}
+	
+	div.main div.products div.mobile-wrap
+	{
+		padding:0;
+		margin:0;
+		height:auto;
+		display:inline-block;	
+	}
+	
+	div.main div.products div.row
+	{
+		width:48%;
+		margin:1%;
+	}
+	
+	div.main div.products div.row .image
+	{
+		width:100%;
+		margin-bottom:5px;
+	}
+	
+	div.main div.products div.text
+	{
+		width:100%;
+		margin:0;
+		text-align:center;
+	}
+	
+	/* Contact Us  ================================== */
+	
+	div.main div.contactus
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.contactus form
+	{
+		display:none;	
+	}
+	
+	div.main div.contactus div.info
+	{
+		width:100%;
+		float:left;
+	}
+	
+	/* Footer ====================================== */
+	
+	
+	footer.main
+	{
+		width: 100%;
+		height:auto;
+		padding: 15px 0 15px;
+		margin: 25px 0;
+		border: none;
+		background-image: url(../img/mobile/footer-divider-s.png);
+		background-repeat: no-repeat;
+		background-position: center top;		
+	}
+	footer.main .badge,
+	footer.main nav
+	{
+		display:none;	
+	}
+	footer.main p
+	{
+		width:100%;
+		padding:0;
+		margin:0;
+		text-align:center;
+		font-size:7pt;
+	}
+	
+	/* Product Popup Overlay ====================================== */
+
+	div#product-wrapper
+	{
+		position:relative;
+		margin:0 auto;
+		width:98%;
+		padding:1%;
+		font-size:inherit;
+	}
+	
+	div#product-wrapper a.close
+	{
+		top: 0;
+		right: 0;
+	}
+	
+	div#product-wrapper h1
+	{
+		font-size:14pt;
+	}
+	
+	div.main div.products div.mobile-wrap
+	{
+		padding:0;
+		margin:0;
+		height:auto;
+		display:inline-block;	
+	}
+	
+	div#product-wrapper div.mobile-wrap
+	{
+		padding:0;
+		margin:0;
+		height:auto;
+		display:inline-block;	
+	}
+	
+	div#product-wrapper div.wrap
+	{
+		width:100%;
+		float:left;	
+	}
+	
+	div#product-wrapper div.product
+	{
+		width:48% !important;
+		height:auto !important;
+		margin:1% !important;
+
+	}
+	
+	div#product-wrapper div.product div.image
+	{
+		width:100%;
+		height:auto !important;
+		background-image:none;
+	}
+	div#product-wrapper div.product div.image img
+	{
+		width:100% !important;
+	}
+	
+	/*=============================================*/
+
+	div.o_banquet{}
+	div.o_banquet div.product div.image
+	{
+		height: auto !important;		
+	}
+	
+	div.o_dimsum
+	{
+		background:none !important;
+	}
+	div.o_dimsum div.product
+	{
+		width: auto !important;	
+	}
+	div.o_dimsum div.product div.image
+	{
+		width: auto !important;		
+		height: auto !important;	
+		background:none !important;
+	}
+	div.o_dimsum div.product div.image img
+	{
+		width: auto !important;
+	}
+	
+	div.o_bakery
+	{
+		background:none !important;	
+	}
+	div.o_bakery div.product
+	{
+		width: auto !important;	
+	}
+	div.o_bakery div.product div.image
+	{
+		width: auto !important;		
+		height: auto !important;	
+		background:none !important;
+	}
+	div.o_bakery div.product div.image img
+	{
+		width: auto !important;
+	}
+		
+	
+}
+
+@media all and (min-width : 480px) and (max-width : 639px) {
+	
+	
+	html
+	{
+		background-color: #2a2420;	
+		background-image:none;
+	}
+	
+	header.main
+	{
+		width: 100%;
+		height: 136px;
+		background-image: url(../img/bg.png);
+		background-position:0 0;
+	}
+	
+	header.main div.wrap
+	{
+		width: 100%;
+		margin:0;
+	}
+	
+	header.main div.logo
+	{
+		width:118px;
+		height:132px;
+		background-image:none;
+		left:10px;	
+	}
+	
+	header.main div.logo a
+	{
+		background-image: url(../img/mobile/logo.png);	
+	}
+	
+	header.main div.fb
+	{
+		display:block;
+		width: 80px;
+		height: 80px;
+		
+		position:absolute;
+		top:10px;
+		right:100px;	
+		cursor:pointer;
+		outline:none;
+		font-size:0;
+	}
+	
+	header.main div.fb a
+	{
+		display:block;
+		width: 80px;
+		height: 80px;
+		background-image: url(../img/mobile/fb-button.png);
+		background-repeat: no-repeat;
+		background-position: center center;	
+		padding:0;
+	}
+	
+	header.main div.menu-button
+	{
+		display:block;
+		width: 80px;
+		height: 80px;
+		background-image: url(../img/mobile/menu-button.png);
+		background-repeat: no-repeat;
+		background-position: center center;	
+		position:absolute;
+		top:10px;
+		right:10px;	
+		cursor:pointer;
+		font-size:0;
+	}
+	
+	div#wrapper
+	{
+		width: 100%;
+	}
+	
+	header.main nav
+	{
+		display:none;
+		width:100%;
+		font-size:1.5em;
+		color:#e9c787;
+		top:0;
+		right:0;
+		z-index:999;
+	}
+	
+	header.main nav ul
+	{
+		width:80%;
+		margin:0;
+		padding:0;
+		float:right;
+		background-color:#212121;
+	}
+	
+	header.main nav ul li
+	{
+		width:100%;
+		margin:0;
+		padding:0;
+		clear:left;
+		float:left;
+	}
+	
+	header.main nav li a
+	{
+		color:#e9c787; 
+		text-decoration:none;
+		padding:10px 20px;
+		border-bottom:solid 1px #383838;
+	}
+	
+	header.main nav li a:hover,
+	header.main nav li a.current
+	{
+		background:none;
+	}
+	header.main nav li:last-child a
+	{
+		border:none;	
+	}
+	
+	header.main nav div.close-menu
+	{
+		float:right;
+		background-color:#85807c;
+		width:50px;
+		height:50px;
+		
+		background-image: url(../img/mobile/close-bg.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		font-size:0;
+		cursor:pointer;
+	}
+	
+	div.main
+	{
+		min-height:300px;
+		margin:0;
+	}
+	
+	div.main div.background
+	{
+		display:none;	
+	}
+	
+	#supersized
+	{
+		display:none !important;	
+	}
+	
+	div.mobile-bg
+	{
+		display:block;
+		width: 100%;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	div.mobile-bg img
+	{
+		margin-top:68px;
+		width: 100%;
+	}
+	
+	div.main div.landing
+	{
+		width: 95%;
+		height:auto;	
+		margin:220px auto 25px;
+		padding:0;
+		float:none;
+	}
+	
+	div.main div.landing div.slide-list
+	{
+		display:none;	
+	}
+	
+	div.main div.landing div.col
+	{
+		width:100%;
+		margin:0 0 15px 0;
+		float:left;	
+	}
+	
+	div.main div.landing div.col h1
+	{
+		font-size:2em;
+		line-height:2em;
+	}
+	
+	div.main div.landing div.col div.content
+	{
+		font-size:1.2em;
+		line-height:1.2em;	
+	}
+	
+	div.main div.container
+	{
+		margin: 0;
+		background:none;
+		background-image: url(../img/mobile/content-bg.png);
+		background-repeat: repeat;
+	}
+	
+	div.main div.container p
+	{
+		margin-top:0;	
+	}
+	
+	/* About us  ================================== */
+	
+	div.main div.aboutus
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+		padding-top:300px;
+	}
+	
+	div.main div.aboutus h1
+	{
+		margin-left:0;
+		float:none;
+		width:auto;
+	}
+	
+	/*
+	div.main div.aboutus img.intro
+	{
+		position:absolute;
+		width:auto;
+		max-width:550px;
+		height:auto;
+		float:none;
+		top:-500px;
+		left:0;
+	}
+	*/
+	
+	div.main div.aboutus div.intro
+	{
+		width:550px;
+		top:-125px;
+		left:-0px;	
+	}
+	
+	div.main div.aboutus div.intro img
+	{
+		max-width:550px;
+		*width:550px;	
+	}
+	
+	div.main div.aboutus p.spacer
+	{	
+		padding:0;
+		position:relative;
+	}
+	
+
+	/* Career  ================================== */
+
+	div.main div.career
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.career img.intro
+	{
+		display:none;
+	}
+	
+	div.main div.career img.intro-reverse
+	{
+		display:block;
+		position:absolute;
+		width:200px;
+		height:auto;
+		bottom:0px;
+		right:10px;
+		float:right;
+	}
+	
+	div.main div.career ul
+	{
+		margin-bottom:10px;
+	}
+	
+	div.main div.career p.spacer
+	{
+		padding:0;
+	}
+	
+	div.main div.career p.mspacer
+	{
+		padding:0 100px 0 0;
+	}
+	
+	div.main div.career p.bottom-gap
+	{
+		height:50px;
+	}
+
+	/* Membership  ================================== */
+
+	div.main div.membership
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.membership img.intro
+	{
+		width:125px;
+		top:-15px;
+		right:5px;
+	}
+	
+	div.main div.membership div.col
+	{
+		width:100%;
+	}
+		
+	div.main div.membership ul
+	{
+		margin:0 0 15px 0;
+	}
+	
+	div.main div.membership .left
+	{
+		margin:0;
+		padding:0 0 0 0;
+		border:none;
+		border-bottom-width: 1px;
+		border-bottom-style: dotted;
+		border-bottom-color: #806d4a;
+	}
+	
+	div.main div.membership .right
+	{
+		margin:10px 0 0 0;	
+	}
+	
+	.membership-link
+	{
+		display:block;	
+	}
+	
+	/* Festive ================================== */
+
+	div.main div.festive
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.festive div.wrap
+	{
+		width:100%;	
+		margin:0;
+		padding:0;
+	}
+	
+	div.main div.festive h2
+	{
+		font-size:10pt;	
+	}
+	
+	div.main div.festive div.display
+	{
+		width:100%;
+	}
+	
+	#thumb-carousel
+	{
+		width:100%;
+		margin:10px 0;
+	}
+	
+	#thumb-carousel div.m-item
+	{
+		width:15%;
+		margin:2px;
+	}
+	
+	#thumb-carousel div.m-item img
+	{
+		width:100%;
+	}
+	
+	#thumb-carousel div.m-item p
+	{
+		display:none;
+	}
+	
+	#thumb-carousel .m-carousel-controls
+	{
+		display:block;
+	}
+	
+	#thumb-carousel .m-carousel-controls a{}
+	
+	/* Promotion ================================== */
+
+	div.main div.promotion
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	/* Product & Services  ========================= */
+
+	div.main div.products
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	div.main div.products h2
+	{
+		font-size:10pt;	
+	}
+	
+	div.main div.products div.mobile-wrap
+	{
+		padding:0;
+		margin:0;
+		height:auto;
+		display:inline-block;	
+	}
+	
+	div.main div.products div.row
+	{
+		width:48%;
+		margin:1%;
+	}
+	
+	div.main div.products div.row .image
+	{
+		width:100%;
+		margin-bottom:5px;
+	}
+	
+	div.main div.products div.text
+	{
+		width:100%;
+		margin:0;
+		text-align:center;
+	}
+	
+	/* Contact Us  ================================== */
+	
+	div.main div.contactus
+	{
+		width:90%;	
+		padding:2.5%;
+		margin:0 2.5%;
+		float:left;
+	}
+	
+	div.main div.contactus form
+	{
+		display:none;	
+	}
+	
+	div.main div.contactus div.info
+	{
+		width:100%;
+		float:left;
+	}
+	
+	div.main div.contactus div.info p
+	{
+		float:left;
+	}
+	
+	div.main div.contactus div.info p.operation
+	{
+		float:right;
+	}
+	
+	
+	/* Footer ====================================== */
+	
+	
+	footer.main
+	{
+		width: 100%;
+		height:auto;
+		padding: 25px 0 25px;
+		margin: 25px 0;
+		border: none;
+		background-image: url(../img/mobile/footer-divider-m.png);
+		background-repeat: no-repeat;
+		background-position: center top;		
+	}
+	footer.main .badge,
+	footer.main nav
+	{
+		display:none;	
+	}
+	footer.main p
+	{
+		width:100%;
+		padding:0;
+		margin:0;
+		text-align:center;
+		font-size:9pt;
+	}
+	
+	/* Product Popup Overlay ====================================== */
+
+	div#product-wrapper
+	{
+		position:relative;
+		margin:0 auto;
+		width:98%;
+		padding:1%;
+		font-size:inherit;
+	}
+	
+	div#product-wrapper a.close
+	{
+		top: 0;
+		right: 0;
+	}
+	
+	div#product-wrapper h1
+	{
+		font-size:14pt;
+	}
+	
+	div.main div.products div.mobile-wrap
+	{
+		padding:0;
+		margin:0;
+		height:auto;
+		display:inline-block;	
+	}
+	
+	div#product-wrapper div.mobile-wrap
+	{
+		padding:0;
+		margin:0;
+		height:auto;
+		display:inline-block;	
+	}
+	
+	div#product-wrapper div.wrap
+	{
+		width:100%;
+		float:left;	
+	}
+	
+	div#product-wrapper div.product
+	{
+		width:48% !important;
+		height:auto !important;
+		margin:1% !important;
+
+	}
+	
+	div#product-wrapper div.product div.image
+	{
+		width:100%;
+		height:auto !important;
+		background-image:none;
+	}
+	div#product-wrapper div.product div.image img
+	{
+		width:100% !important;
+	}
+	
+	/*=============================================*/
+
+	div.o_banquet{}
+	div.o_banquet div.product div.image
+	{
+		height: auto !important;		
+	}
+	
+	div.o_dimsum
+	{
+		background:none !important;
+	}
+	div.o_dimsum div.product
+	{
+		width: auto !important;	
+	}
+	div.o_dimsum div.product div.image
+	{
+		width: auto !important;		
+		height: auto !important;	
+		background:none !important;
+	}
+	div.o_dimsum div.product div.image img
+	{
+		width: auto !important;
+	}
+	
+	div.o_bakery
+	{
+		background:none !important;	
+	}
+	div.o_bakery div.product
+	{
+		width: auto !important;	
+	}
+	div.o_bakery div.product div.image
+	{
+		width: auto !important;		
+		height: auto !important;	
+		background:none !important;
+	}
+	div.o_bakery div.product div.image img
+	{
+		width: auto !important;
+	}
+}

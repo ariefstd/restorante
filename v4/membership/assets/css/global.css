@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700);
+@charset "UTF-8";
+
+body,html
+{
+	margin:0;
+	padding:0;
+	/*overflow:hidden !important;*/
+	background-color: #F0F0F0;	
+}
+
+div#login_wrapper
+{
+	width:480px;
+	position:relative;
+	background-color:#fff;
+	padding:20px;
+	float:left;
+	overflow:auto;
+}
+div#login_wrapper div.header
+{
+	width:480px;
+	float:left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C48423;	
+	padding:0 0 5px 0;
+}
+
+div#login_wrapper div.header h1
+{
+	font-family: 'Signika Negative', sans-serif;
+	font-size:22px;
+	color:#C48423;	
+	font-weight:normal;
+	float:left;
+}
+
+div#login_wrapper div.header a.close
+{
+	display:block;
+	float:right;
+	background-image: url(../img/close_btn.png);
+	background-repeat: no-repeat;
+	width:16px;
+	height:16px;
+	margin-top:5px;
+}
+div#login_wrapper div.container
+{
+	width:480px;
+	float:left;
+	margin:10px 0 0 0;
+}
+
+div#login_wrapper div.container table
+{
+	width:100%;
+	border: solid 1px #d1d0ce;
+	color:#6f6d67;
+}
+div#login_wrapper div.container table td
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d1d0ce;
+	padding:2px 8px 2px 8px;
+	line-height:30px;
+}
+
+div#login_wrapper div.container table input[type='text'],
+div#login_wrapper div.container table input[type='password']
+{	
+	border:0; 
+	padding:8px 8px 8px 8px;	
+}
+div#login_wrapper div.container table input:hover{ background-color:#f1f1f1;}
+
+div#login_wrapper div.container div.row
+{
+	float:left;	
+	margin-top:15px;clear:both;
+}
+
+div#login_wrapper div.container div.row a{ color:#6F6D67; text-decoration:none;}
+
+
+div#login_wrapper div.container div.error
+{
+	display:none;
+	margin-top:5px;
+	color:#F00;	
+	position:absolute;
+	padding:3px;
+	right:15px;
+	bottom:20px;
+}
+
+
+/* Profile Page ===================================================================== */
+
+
+div#main_wrapper
+{
+	width:480px;
+	position:relative;
+	background-color:#fff;
+	padding:20px;
+	float:left;
+	overflow:auto;
+}
+div#main_wrapper div.header
+{
+	width:480px;
+	float:left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C48423;	
+	padding:0 0 5px 0;
+}
+
+div#main_wrapper div.header h1
+{
+	font-family: 'Signika Negative', sans-serif;
+	font-size:22px;
+	color:#C48423;	
+	font-weight:normal;
+	float:left;
+}
+
+div#main_wrapper div.header a.close
+{
+	display:block;
+	float:right;
+	background-image: url(../img/close_btn.png);
+	background-repeat: no-repeat;
+	width:16px;
+	height:16px;
+	margin-top:5px;
+}
+
+div#main_wrapper div.promo
+{
+	width:480px;
+	float:left;
+	margin:0 0 0 0;
+}
+
+div#main_wrapper div.container
+{
+	width:480px;
+	float:left;
+	margin:10px 0 0 0;
+}
+
+div#main_wrapper div.container table
+{
+	width:100%;
+	border: solid 1px #d1d0ce;
+	color:#6f6d67;
+}
+div#main_wrapper div.container a{color:#6f6d67;}
+div#main_wrapper div.container a.link{color:#c48423;}
+div#main_wrapper div.container table td
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d1d0ce;
+	padding:10px 5px 9px 5px;
+	font-size:12px;
+}
+div#main_wrapper div.container table.register td  {padding:2px 5px 2px 5px; line-height:30px;}
+
+div#main_wrapper div.container table input[type='text'],
+div#main_wrapper div.container table input[type='password']
+{	
+	border:0; 
+	padding:8px 5px 8px 5px;	
+	width:120px;
+}
+div#main_wrapper div.container table.register input[type='text'],
+div#main_wrapper div.container table.register input[type='password']
+{
+	width:105px;
+}
+
+
+div#main_wrapper div.container table input:hover{ background-color:#f1f1f1;}
+
+div#main_wrapper div.container table.profile td  {padding:2px 5px 2px 5px; line-height:30px;}
+
+div#main_wrapper div.container table.profile input[type='text'],
+div#main_wrapper div.container table.profile input[type='password']
+{
+	width:105px;
+}
+div#main_wrapper div.container table.profile textarea
+{
+	width:300px;
+}
+
+
+div#main_wrapper div.container div.row
+{
+	float:left;	
+	margin-top:15px;
+	clear:both;
+}
+
+div#main_wrapper div.container div.edit
+{
+	float:left;	
+	margin-top:5px;margin-bottom:10px;clear:both;
+}
+
+div#main_wrapper div.container div.error
+{
+	display:none;
+	margin-top:5px;
+	color:#F00;	
+	position:absolute;
+	padding:3px;
+	right:15px;
+	bottom:35px;
+}
+
+
+div.bank_transfer
+{
+	float:left;	
+}
+
+div.bank_transfer table.payment
+{
+	border:none !important;
+}
+
+div.bank_transfer table.payment td
+{
+	border:none !important;
+	padding:2px 0 2px 0 !important;
+}

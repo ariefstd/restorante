@@ -1,0 +1,121 @@
+﻿
+#mcts1, #mcts1 div { box-sizing:content-box; }
+
+#mcts1
+{
+    border: 1px solid transparent;
+    box-sizing: content-box;
+    font-size: 0;
+    height: 355px;
+    margin: 25px auto;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+    width: 920px;
+}
+#mcts1>a, #mcts1>div, #mcts1>img {display:none;}
+
+/*-------- div.item is each thumbnail's wrapper created by the javascript ------*/
+#mcts1 div.item
+{
+    margin-right: 20px;
+    text-align: center;
+}
+
+#mcts1 img
+{
+    height: auto;
+    width: 100%;
+}
+
+
+/*---------built-in navigation buttons-------*/
+#mcts1 .navPrev, #mcts1 .navNext, #mcts1 .navPlay, #mcts1 .navPause
+{
+    width:16px; height:22px; position:absolute;
+    background:url(navbuttons.png);
+    display:inline-block; z-index:5; cursor:pointer;
+}
+#mcts1 .navPrev {background-position:0 -22px;top:60px;left:-40px;}
+#mcts1 .navPrev:hover {background-position:0 -44px;}
+#mcts1 .navPrevDisabled, #mcts1 .navPrevDisabled:hover {background-position:0 0;cursor:default;}
+
+#mcts1 .navNext {background-position:-16px -22px;top:60px;right:-40px;}
+#mcts1 .navNext:hover {background-position:-16px -44px;}
+#mcts1 .navNextDisabled, #mcts1 .navNextDisabled:hover {background-position:-16px 0; cursor:default;}
+
+#mcts1 .navPause, #mcts1 .navPlay {left:360px;top:130px;}
+#mcts1 .navPause {background-position:0 -66px;}
+#mcts1 .navPause:hover {background-position:0 -88px;}
+#mcts1 .navPlay {background-position:-16px -66px;}
+#mcts1 .navPlay:hover {background-position:-16px -88px;}
+
+.navPrev, .navPlay, .navPause, .navNext
+{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+/*---------built-in navigation bullets--------*/
+/* Note: the navBullets won't be available when "scrollByEachThumb" was set to false in the Javascript.*/
+#mcts1 .navBullets
+{
+    display:block;
+}
+
+
+/*---------built-in navigation bullets--------*/
+
+/*--------- class1 that is for the slide with HTML content------------*/
+.class1
+{
+    width:210px;
+    height: 325px;
+    white-space:normal;
+}
+.information{
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    color: #e9c787;
+    font-family: "times italic";
+    font-language-override: normal;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: bold;
+    height: 26px;
+    line-height: normal;
+    padding: 13px 0;
+    position: absolute;
+    width: 100%;
+    transition: height 2s;
+}
+.title{
+    top: 0;
+    position: relative;
+    text-align: center;
+}
+.btn-order{
+    color: #fff;
+    margin-top: 110px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.information:hover{
+    height: 300px;
+}
+
+/* --------- Others ------- */
+#mcts1 div, #mcts1 img
+{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}

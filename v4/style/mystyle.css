@@ -1,0 +1,689 @@
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700);
+@charset "UTF-8";
+
+/*************************/
+/***** Signika Style *****/
+/*************************/
+.signika_12a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+/*****************/
+.signika_13a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 13px;
+	color: #666;
+}
+/*****************/
+.signika_14a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+/*****************/
+.signika_16a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 16px;
+	color: #666;
+}
+/*****************/
+.signika_16b {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 16px;
+	color: #c48423;
+}
+/*****************/
+.signika_18a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 18px;
+	color: #c48423;
+}/*****************/
+.signika_18b {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+/*****************/
+.signika_22a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 22px;
+	color: #6f6d67;
+}
+/*****************/
+.signika_24a {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 22px;
+	color: #c48423;
+}
+
+/***********************/
+/***** Arial Style *****/
+/***********************/
+.arialgray_12a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	line-height:18px;
+}
+.arialgray_12b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	line-height:18px;
+}
+
+/************************/
+/***** Signika Link *****/
+/************************/
+.lisig12a a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#6f6d67;
+	text-decoration: none;
+}
+.lisig12a a:hover {
+	text-decoration: underline;
+	color:#6f6d67;
+}
+.lisig12a a:visited {
+	text-decoration: none;
+	color:#6f6d67;
+}
+/*****************/
+.lisig13a a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: none;
+}
+.lisig13a a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: underline;
+}
+.lisig13a a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: none;
+}
+/*****************/
+.lisig13b a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: none;
+}
+.lisig13b a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	text-decoration: underline;
+	color:#6f6d67;
+}
+.lisig13b a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:13px;
+	font-weight: 400;
+	text-decoration: none;
+	color:#6f6d67;
+}/*****************/
+.lisig14a a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#c48423;
+	text-decoration: none;
+}
+.lisig14a a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	text-decoration: underline;
+	color:#c48423;
+}
+.lisig14a a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	text-decoration: none;
+	color:#c48423;
+}
+/*****************/
+.lisig14b a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: none;
+	padding: 0px 8px 0px 8px;
+}
+.lisig14b a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	text-decoration: underline;
+	color:#6f6d67;
+}
+.lisig14b a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	text-decoration: none;
+	color:#6f6d67;
+}
+/*****************/
+.lisig14c a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#fff;
+	text-decoration: none;
+	padding: 0px 8px 0px 8px;
+}
+.lisig14c a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#49300a;
+	text-decoration: underline;
+	padding: 0px 8px 0px 8px;
+}
+.lisig14c a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#fff;
+	text-decoration: none;
+	padding: 0px 8px 0px 8px;
+}
+/*****************/
+.lisig14d a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: none;
+	padding: 0px 8px 0px 8px;
+	margin-top:500px;
+}
+.lisig14d a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: underline;
+	padding: 0px 8px 0px 8px;
+	margin-top:500px;
+}
+.lisig14d a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#6f6d67;
+	text-decoration: none;
+	padding: 0px 8px 0px 8px;
+	margin-top:500px;
+}
+
+/*****************/
+.lisig16a a:link {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color:#666;
+	text-decoration: none;
+}
+.lisig16a a:hover {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color:#666;
+	text-decoration: underline;
+}
+.lisig16a a:visited {
+	font-family: 'Signika Negative', sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color:#666;
+	text-decoration: none;
+}
+/************************/
+/***** Arial Link *****/
+/************************/
+.liAri12a a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#6f6d67;
+	text-decoration: none;
+}
+.liAri12a a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#6f6d67;
+	text-decoration: underline;
+}
+.liAri12a a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#6f6d67;
+	text-decoration: none;
+}
+
+/*****************/
+.btn_brown a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	background-color: #c48423;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+}
+.btn_brown a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #c48423;
+	padding: 5px 20px 5px 20px;
+}
+.btn_brown a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #99671b;
+	padding: 5px 20px 5px 20px;
+}
+/*****************/
+
+.liAri12b a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#c48423;
+	text-decoration: none;
+}
+.liAri12b a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#c48423;
+	text-decoration: underline;
+}
+.liAri12b a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: 300;
+	color:#c48423;
+	text-decoration: none;
+}
+/*****************/
+
+.pagination a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	padding: 4px;
+	background-color: #CCC;
+	border: 1px solid #999;
+	text-decoration: none;
+}
+.pagination a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	padding: 4px;
+	background-color: #CCC;
+	border: 1px solid #999;
+	text-decoration: none;
+}
+.pagination a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCC;
+	padding: 4px;
+	background-color: #666;
+	border: 1px solid #333;
+	text-decoration: none;
+}
+
+/****************/
+/***** Line *****/
+/****************/
+.lineH {
+	border-bottom: 1px solid #c48423;
+}
+/*****************/
+
+
+/*******************/
+/***** Padding *****/
+/*******************/
+.padding_img {
+	padding: 3px;
+}
+
+/****************************/
+/***** Background Image *****/
+/****************************/
+.imgbg_aboutus {
+	background:url(../images/bg_aboutus.jpg) top left no-repeat;
+}
+/*****************/
+
+.imgbg_festive {
+	background:url(../images/bg_festive.jpg) top right no-repeat;
+}
+/*****************/
+
+.imgbg_promo1 {
+	background:url(../images/bg_promotion1.jpg) top left no-repeat;
+}
+/*****************/
+
+.imgbg_promo2 {
+	background:url(../images/bg_promotion2.jpg) top left no-repeat;
+}
+/*****************/
+
+.imgbg_promo3 {
+	background:url(../images/img_promotion.jpg) bottom left no-repeat;
+}
+/*****************/
+
+.imgbg_ps1 {
+	background:url(../images/bg_banquet.jpg) bottom left no-repeat;
+}
+.imgbg_ps2 {
+	background:url(../images/bg_dimsum.jpg) bottom left no-repeat;
+}
+.imgbg_ps3 {
+	background:url(../images/bg_alacart.jpg) bottom left no-repeat;
+}
+.imgbg_ps3 {
+	background:url(../images/bg_bakery.jpg) bottom left no-repeat;
+}
+.imgbg_ps3a {
+	background:url(../images/menu/dumpling.jpg) top left no-repeat;
+}
+/************************/
+/***** Table Border *****/
+/************************/
+.border_1 {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	padding:5px;
+}.border_2 {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	padding:5px;
+}
+.border_3 {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	padding:5px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.dottedline {
+	border-bottom: 1px dotted #999;
+}
+.dottedline1 {
+	border-bottom: 1px dotted #666;
+}
+/**********************/
+/***** DIV Images *****/
+/**********************/
+#centeredpage {
+   margin:0 auto;
+   text-align:left;
+   position:relative;
+}
+/*** Promotion ***/
+#fes_label {
+   position:absolute;
+   top:-2px;
+   left:18px;
+}
+/*** Promotion ***/
+#promotion {
+   position:absolute;
+   bottom:-18px;
+   left:0px;
+}
+/*** Membership ***/
+#membership {
+   position:absolute;
+   top:-110px;
+   right:0px;
+}
+/*** Membership ***/
+#membership1 {
+   position:absolute;
+   top:10px;
+   right:10px;
+}
+/*** Product & Services ***/
+#ps {
+   position:absolute;
+   top:-61px;
+   left:-20px;
+}
+#ps_dimsum {
+   position:absolute;
+   top:-33px;
+   left:0px;
+}
+#ps_alacart {
+   position:absolute;
+   top:-90px;
+   left:0px;
+}
+#ps_dumpling {
+   position:absolute;
+   top:10px;
+   left:0px;
+}
+#ps_enquiry_btn {
+   position:absolute;
+   top:-25px;
+   right:0px;
+}
+/*** Promotion ***/
+#promo {
+   position:absolute;
+   top:-181px;
+   left:-20px;
+}
+#festive_qingming {
+   position:absolute;
+   top:-2px;
+   left:-13px;
+}
+/***************/
+/* Forms Style */
+/***************/
+.txtfield_signika {
+	font-family: 'Signika', sans-serif;
+	font-weight:300;
+	color: #888;
+	font-size: 14px;
+	height:24px;
+	padding: 2px 10px 2px 10px;
+	border:solid 1px #ccc;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5f5));
+	background: -moz-linear-gradient(top, #fff, #f5f5f5);
+	background: -o-linear-gradient(top, #fff, #f5f5f5);
+}
+.button_signika {
+	font-family: 'Signika', sans-serif;
+	font-weight:300;
+	color: #888;
+	font-size: 14px;
+	height:24px;
+	padding: 2px 10px 2px 10px;
+	border:solid 1px #ccc;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5f5));
+	background: -moz-linear-gradient(top, #fff, #f5f5f5);
+	background: -o-linear-gradient(top, #fff, #f5f5f5);
+}
+/****************/
+/* BUTTON STYLE */
+/****************/
+button.clean-gray {
+	font-family:'Signika', sans-serif;
+	font-size:14px;
+	color: #333;
+	line-height: 1;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+	background-color: #eeeeee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#cccccc));
+	/* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: linear-gradient(top, #eeeeee, #cccccc);
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+ }
+
+button.clean-gray:hover {
+	font-family:'Signika', sans-serif;
+	font-size:14px;
+	color: #333;
+	line-height: 1;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+    background-color: #dddddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#bbbbbb));
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: linear-gradient(top, #dddddd, #bbbbbb);
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ddd;
+}
+
+button.clean-gray:active {
+	font-family:'Signika', sans-serif;
+	font-size:14px;
+	color: #666;
+	line-height: 1;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    -ms-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    -o-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}
+/****************/
+button.clean-gray-s {
+	font-family:'Signika', sans-serif;
+	font-size:12px;
+	color: #333;
+	line-height: 1;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+	background-color: #eeeeee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#cccccc));
+	/* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+	background-image: linear-gradient(top, #eeeeee, #cccccc);
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+ }
+
+button.clean-gray-s:hover {
+	font-family:'Signika', sans-serif;
+	font-size:12px;
+	color: #333;
+	line-height: 1;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+    background-color: #dddddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#bbbbbb));
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+    background-image: linear-gradient(top, #dddddd, #bbbbbb);
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ddd;
+}
+
+button.clean-gray-s:active {
+	font-family:'Signika', sans-serif;
+	font-size:12px;
+	color: #333;
+	line-height: 1;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	text-shadow: 0 1px 0 #eee;
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    -ms-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    -o-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}

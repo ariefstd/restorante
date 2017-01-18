@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'signikalight';
+    src: url('../font/signika_light/Signika-Light.eot');
+    src: url('../font/signika_light/Signika-Light.svg#signikalight') format('svg'),
+		 url('../font/signika_light/Signika-Light.eot?#iefix') format('embedded-opentype'),
+         url('../font/signika_light/Signika-Light.woff') format('woff'),
+         url('../font/signika_light/Signika-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'times_bold';
+    src: url('../font/times_bold/times_bold-webfont.eot');
+    src: url('../font/times_bold/times_bold-webfont.svg#times_bold') format('svg'),
+		 url('../font/times_bold/times_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/times_bold/times_bold-webfont.woff') format('woff'),
+         url('../font/times_bold/times_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'times_italic';
+    src: url('../font/times_italic/times_italic-webfont.eot');
+    src: url('../font/times_italic/times_italic-webfont.svg#times_italic') format('svg'),
+		 url('../font/times_italic/times_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/times_italic/times_italic-webfont.woff') format('woff'),
+         url('../font/times_italic/times_italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

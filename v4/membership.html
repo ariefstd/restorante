@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="style/mystyle.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/mobile.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/jquery-1.9.0.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+        <link rel="stylesheet" href="css/supersized.css" />
+		<link rel="stylesheet" href="js/theme/supersized.shutter.css" />
+        <script src="js/vendor/supersized.3.2.7.min.js"></script>
+		<script src="js/theme/supersized.shutter.min.js"></script>
+        
+        <link rel="stylesheet" href="js/fancyapps/jquery.fancybox.css">
+        <script src="js/fancyapps/jquery.fancybox.pack.js"></script>
+        
+        <link href="style/mystyle.css" rel="stylesheet" type="text/css" />
+		<link href="style/colorbox.css" rel="stylesheet" type="text/css" />
+        <script src="include/jquery.colorbox.js"></script>
+		<script src="include/colorbox.js"></script>
+       
+        <script src="js/global.js"></script>
+        
+        
+        <script type="text/javascript">
+			$(document).ready(function() {
+				
+				$('.fancybox').fancybox(
+				{
+					width:'520',
+			  		height:'90%',
+					  type: 'iframe',
+					  autoSize: true,
+					  autoHeight: true,
+					  autoWidth: true,
+					  autoResize: true,
+					  autoCenter: true,
+					  'closeBtn' : false,
+					  maxWidth: '100%',
+					  maxHeight: '100%',
+
+					helpers:  {
+						title:  null,
+						overlay : {
+							closeClick : false,
+							showEarly  : false
+						}
+					},
+					
+					'beforeShow': function () { 
+					
+						$('.fancybox-wrap div').removeClass('fancybox-skin');
+					}
+				});
+				
+				$('.fancybox').bind('close_box', function() {
+					$.fancybox.close();
+				});
+				
+				$('.fancybox').bind('update', function() {
+					$.fancybox.update();
+				});
+				
+			
+			});
+			</script>
+		
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="main">
+        <div class="wrap">
+            	<div class="logo">
+              		<a href="index.html"></a>
+              	</div>
+                <div class="fb"><a href="https://www.facebook.com/nhkrestaurantjb" target="_new">Follow us at</a></div>
+                <div class="menu-button"></div>
+                <nav>
+                	<ul>
+                    	<li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="products.html">Product &amp; Services</a></li>
+                        <li><a href="festive.html">Festive Celebration</a></li>
+                        <li><a href="promotion.html">Promotion</a></li>
+                        <li><a href="membership.html" class="current">Membership</a></li>
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                    <div class="close-menu"></div>
+                </nav>
+        </div>
+        </header>
+
+        <div class="mobile-bg">
+        <img src="img/mobile/background/1.png">
+        </div>
+        
+		<div id="wrapper">
+        
+          <div class="main">
+          
+            	<div class="background" id="slideshow">
+              	<img src="img/background/t1.jpg">
+                <img src="img/background/t2.jpg">
+                <img src="img/background/t3.jpg">
+                <img src="img/background/t4.jpg">
+                <img src="img/background/t5.jpg">
+                <img src="img/background/t6.jpg">
+                <img src="img/background/t7.jpg">
+                <img src="img/background/t8.jpg">
+                </div>
+                
+                  
+                <div class="container membership">
+                	<h1>Membership</h1>
+            		<img src="img/membercard.png" class="intro"> 
+                	
+                    <div class="col left">
+                    	<p>If you enjoy dining at New Hong Kong Restaurant, then it makes perfect sense to join as a member to enjoy special benefits and privileges. We reward our members generously as a show of gratitude for your support. So, what’s in store for members?</p>
+
+						<p>Exclusive Benefits and Privileges:</p>
+
+                        <p><b>New Hong Kong VIP Card members get to enjoy:</b>
+                        <ul>
+                        <li>10% discount on selected food items.</li>
+                        <li>5% discount on seasonal / festive products.</li>
+                        </ul>
+                        </p>
+
+                        <p><b>Specially for customers who celebrate their birthdays at New Hong Kong Restaurant:</b>
+                        <ul>
+                        <li>You can apply for a New Hong Kong VIP Card absolutely FREE.</li>
+                        <li>Upon sign up, you can use your VIP card IMMEDIATELY to obtain a special 15% discount on that day.</li>
+                        <li>You will receive a plate of our famous Birthday Peach Buns FREE. (For verification, please present your identification card or passport 
+                        to our staff.)</li>
+                        </ul>
+                        </p>
+                    </div>
+                    
+                    <div class="col right">
+                    	<p><b>Application &amp; Renewal:</b><br/>
+						New application for membership is RM20 for the first year, while renewal is only RM10 annually.</p>
+
+						<p><b>Other terms &amp; conditions:</b>
+                        <ul>
+                        <li>Applicable only to bookings for 4 tables and below. (Per table min 10pax.)</li>
+                        <li>New Hong Kong VIP Card is not valid for the following items:
+                        	<br/>
+                            	&ndash; Promotional items.<br/>
+                                &ndash; Take-away products.<br/>
+                                &ndash; Beverages of any kind.<br/>
+                        </li>
+                        <li>VIP Card cannot be used together with any promotional coupons for additional discounts.</li>
+                        <li>New Hong Kong Restaurant reserves the right to amend/modify the terms and conditions without prior notification.</li>
+                        </ul>
+						</p>
+                        
+                        <p class="membership-link">
+                        <a href="register.html" class="link fancybox" title="New Registration">New Registration</a>
+                        <a href="login.html" class="link fancybox" title="Member Login">Member Login</a>
+                        </p>
+                    </div>
+            
+            	</div>
+                
+                
+          </div>
+            
+            
+        	<footer class="main">
+            	<div class="badge"><a href="reservation.html" title="Enquiry & Reservation" class='example5'></a></div>
+            	<nav>
+                	<a href="index.html">Home</a>	|	
+                    <a href="aboutus.html">About Us</a>	|	
+                    <a href="products.html">Product & Services</a>	|	
+                    <a href="festive.html">Festive Celebration</a>	|	
+                    <a href="promotion.html">Promotion</a>	|	
+                    <a href="membership.html">Membership</a>	|	
+                    <a href="career.html">Career</a>	|		
+                    <a href="contactus.html">Contact Us</a>
+                </nav>
+                <p>Copyright &copy; 2013 New Hong Kong Restaurant. All rights reserved.</p>
+            </footer>
+        
+        </div>
+        
+     
+    </body>
+</html>

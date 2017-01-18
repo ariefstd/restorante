@@ -1,0 +1,30 @@
+[15-Dec-2014 10:58:40 UTC] PHP Fatal error:  Call to undefined function mysqli_connect() in /home/dev5/public_html/nhkrestaurant.com/v4/open_db.php on line 7
+[15-Dec-2014 21:46:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhkrestaurant.com/v4/open_db.php on line 7
+[15-Dec-2014 21:49:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhkrestaurant.com/v4/open_db.php on line 7
+[19-Dec-2014 08:35:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/dev5/public_html/nhkrestaurant.com/v4/process_order.php on line 3
+[20-Dec-2014 10:32:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/dev5/public_html/nhkrestaurant.com/v4/process_order.php on line 3
+[22-Dec-2014 07:25:22 UTC] PHP Warning:  Creating default object from empty value in /home/dev5/public_html/nhkrestaurant.com/v4/process_order.php on line 45
+[13-Jan-2015 11:30:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 11:34:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 11:35:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 11:38:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 11:41:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 11:43:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:08:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:08:47 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:16:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:21:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:21:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:21:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:22:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:23:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:23:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:24:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:24:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:26:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:27:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:28:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:29:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:29:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:30:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
+[13-Jan-2015 12:38:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dev5/public_html/nhk/v4/open_db.php on line 6
