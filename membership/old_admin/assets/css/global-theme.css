@@ -1,0 +1,26 @@
+body{
+	color:#000;
+	background-color: #CECECE;
+}
+header{background-color: #252525; color: #fff;}
+footer{background-color: none;}
+
+header div.top_nav a {color: none; background-color: none;}
+header div.top_nav a:hover{color: none; background-color: none;}
+header div.top_nav a.site_preview{
+	color: #fff;
+	background-color: #006699;
+}
+header div.top_nav a.site_preview:hover{
+	text-decoration:none;
+	background-color: #0098E1;
+	color: #000000;
+}
+
+header div.navigation nav ul li a{ color: #ccc; background-color: #333;}
+header div.navigation nav ul li a:hover{ color:#000; background-color: #cecece;}
+header div.navigation nav ul li a.current { color:#000; background-color: #cecece;}
+
+div#main_content div.wrapper{ color: none; background-color: none;}
+div#cms-container div.tab-title{ color: #fff; background-color: #333;}
+div#cms-container div.tab-title h1{ }
